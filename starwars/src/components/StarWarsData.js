@@ -44,7 +44,6 @@ const StarWarsData = () => {
       {data[7] ? <p>{data[7].eye_color}</p> : null}
       {data[8] ? <p>{data[8].eye_color}</p> : null}
       {data[9] ? <p>{data[9].eye_color}</p> : null} */}{" "}
-      */}
       {/* <span>{name[0].name}</span> */}
       {/* we defined date in line 7 */}
       {/* {name.map(x => ( */}
