@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.scss";
 import StarWarsData from "./components/StarWarsData";
-import { SegmentExampleHorizontalSegments } from "./components/Names";
 
 function App() {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -14,9 +13,6 @@ function App() {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <div className="Names">
-        <SegmentExampleHorizontalSegments />
-      </div>
       <div className="StarWarsData">
         <StarWarsData />
       </div>
